@@ -54,4 +54,11 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+step 1: Git clone the repository
+
+
+
+
+
+
+```(oneshot) C:\one_shot_learning>python src/models/predict_model.py "data/processed/images_evaluation/Angelic/character01/0965_01.png" "["data/processed/images_evaluation/Angelic/character01/0965_01.png", "data/processed/images_evaluation/Malayalam/character05/1276_03.png", "data/processed/images_evaluation/Tibetan/character14/1569_12.png"]"```

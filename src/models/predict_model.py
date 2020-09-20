@@ -97,4 +97,4 @@ if __name__ == "__main__":
         ax2.imshow(np.asarray(Image.open(imgSets[pred], 'r')))
         ax2.title.set_text('Most similar image with score ' + str(predVal))
         ax2.axis('off')
-        plt.show()
+        plt.savefig("reports/figures/oneshot.png")
